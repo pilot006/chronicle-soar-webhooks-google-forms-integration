@@ -12,4 +12,12 @@ Want to use a custom Google Form as a way to create a case in Chronicle SOAR. Th
 
 ![Alt text](trigger-settings.png?raw=true)
 
+4) Remember to "Deploy" the script after as a "Web app" by using the button in the upper-right of the script editor.
+
+![Alt text](deployment-type.png?raw=true)
+
+
+NOTE: To create a JSON file for use within the SOAR webhook mapping, you can submit the form once and then retrieve the JSON that is logged within the Apps Script editor under Executions
+![Alt text](logging.png?raw=true)
+
 
