@@ -5,7 +5,6 @@ function onSub(e) {
   obj = {}
   // Loop thought the responses to add them to the JSON
   for (i in items){
-    // 
     obj[items[i].getItem().getTitle()] = items[i].getResponse()
   }
 
